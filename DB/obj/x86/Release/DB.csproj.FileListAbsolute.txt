@@ -1,0 +1,16 @@
+D:\Programming\C#\DB\DB\bin\x86\Release\DB.exe.config
+D:\Programming\C#\DB\DB\bin\x86\Release\DB.exe
+D:\Programming\C#\DB\DB\bin\x86\Release\DB.pdb
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.EditElement.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.Form1.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.Properties.Resources.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.SaveOnTable.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.Search.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.Tabel.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.Takers_Form.resources
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.csproj.GenerateResource.cache
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.csproj.CoreCompileInputs.cache
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.exe
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.pdb
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.csprojAssemblyReference.cache
+D:\Programming\C#\DB\DB\obj\x86\Release\DB.TakersInSearch.resources
