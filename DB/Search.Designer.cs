@@ -47,7 +47,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(10, 5);
+            this.button1.Location = new System.Drawing.Point(10, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -81,12 +81,14 @@
             // 
             this.searchBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.searchBox1.Font = new System.Drawing.Font("Agency FB", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchBox1.Location = new System.Drawing.Point(60, 10);
+            this.searchBox1.Location = new System.Drawing.Point(60, 11);
             this.searchBox1.Name = "searchBox1";
             this.searchBox1.Size = new System.Drawing.Size(912, 38);
             this.searchBox1.TabIndex = 7;
             this.searchBox1.TextChanged += new System.EventHandler(this.SearchBox1_TextChanged_1);
             this.searchBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.SearchBox1_KeyPress);
+            this.searchBox1.MouseLeave += new System.EventHandler(this.SearchBox1_MouseLeave);
+            this.searchBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.SearchBox1_MouseMove);
             // 
             // panel2
             // 
@@ -121,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(977, 572);
             this.Controls.Add(this.SearchPanel);
             this.Controls.Add(this.panel1);

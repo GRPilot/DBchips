@@ -314,5 +314,9 @@ namespace DB
                 e.Handled = true;
             }
         }
+
+        private void SearchBox1_MouseLeave(object sender, EventArgs e) => BackColor = Color.SandyBrown;
+
+        private void SearchBox1_MouseMove(object sender, MouseEventArgs e) => BackColor = Color.FromArgb(220, 150, 100);
     }
 }
