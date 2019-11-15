@@ -65,7 +65,12 @@ namespace DB
         private void Form1_FormClosing(object sender, FormClosingEventArgs e) => Application.Exit();
 
     
-        private void Label2_MouseMove(object sender, MouseEventArgs e) => label2.ForeColor = Color.White;
-        private void Label2_MouseLeave(object sender, EventArgs e) => label2.ForeColor = Color.DimGray;
+        private void link_MouseMove(object sender, MouseEventArgs e) => linkLabel1.LinkColor = Color.White;
+        private void link_MouseLeave(object sender, EventArgs e) => linkLabel1.LinkColor = Color.DimGray;
+
+        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://vk.com/rusan.rusik");
+        }
     }
 }

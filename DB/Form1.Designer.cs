@@ -34,7 +34,7 @@
             this.TableButton = new System.Windows.Forms.Button();
             this.ShearchButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,18 +132,19 @@
             this.label1.Text = "БАЗА ДАННЫХ МИКРОСХЕМ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label2
+            // linkLabel1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DimGray;
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(301, 392);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 19);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Головинский Р.С.";
-            this.label2.MouseLeave += new System.EventHandler(this.Label2_MouseLeave);
-            this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label2_MouseMove);
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
+            this.linkLabel1.Location = new System.Drawing.Point(276, 388);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(157, 19);
+            this.linkLabel1.TabIndex = 6;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Created by Ruslan G.";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
+            this.linkLabel1.MouseLeave += new System.EventHandler(this.link_MouseLeave);
+            this.linkLabel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.link_MouseMove);
             // 
             // Form1
             // 
@@ -151,7 +152,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(434, 411);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -176,7 +177,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button ReservButton;
         private System.Windows.Forms.Button DownloadButton;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
